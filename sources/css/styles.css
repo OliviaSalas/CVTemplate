@@ -41,7 +41,12 @@ main {
 	width: 70%;
 	background: red;
 }
-.town {
+
+article {
+	width: 100%;
+}
+
+h2 {
 	text-transform: uppercase;
 }
 
