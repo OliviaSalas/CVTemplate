@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* ---------------------------------------------------
+--
+-- Projet Template CV
+-- Revision 20170418
+--
+--------------------------------------------------- */
+
+/*mise à zéro*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: inline-block;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+body {
+	
+}
+
+/* header*/
+
+/*main*/
+main {
+	float: left;
+	width: 70%;
+	background: red;
+}
+.town {
+	text-transform: uppercase;
+}
+
+/*aside*/
+aside {
+	float: left;
+	width: 30%;
+	background: green;
+}
+/*footer*/
